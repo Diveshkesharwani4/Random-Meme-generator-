@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* BODY */
+body {
+    background: black;
+    color: white;
+}
+
+/* NAVBAR */
+.navbar {
+    height: 70px;
+    background: #24292e;
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+    gap: 25px;
+}
+
+/* LOGO */
+.logo-circle {
+    width: 45px;
+    height: 45px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-circle img {
+    width: 28px;
+}
+
+/* MENU BOX */
+.menu-box {
+    background: black;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
+.menu-box a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.menu-box a:hover {
+    color: #58a6ff;
+}
+
+/* SOCIAL LINKS */
+.social-links {
+    margin-left: auto;
+}
+
+.social-links a {
+    color: #ccc;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: white;
+}
+
+/* SUBSCRIBE */
+.subscribe-box {
+    display: flex;
+    gap: 8px;
+}
+
+.subscribe-box input {
+    background: black;
+    border: 1px solid #555;
+    padding: 8px;
+    color: white;
+    border-radius: 4px;
+    outline: none;
+}
+
+.subscribe-box button {
+    background: #2ea44f;
+    border: none;
+    padding: 8px 14px;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.subscribe-box button:hover {
+    background: #238636;
+}
+
+/* MAIN TEXT */
+.main-text {
+    height: calc(100vh - 70px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 64px;
+    font-weight: bold;
+    color: gold;
+}
