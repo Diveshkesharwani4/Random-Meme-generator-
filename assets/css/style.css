@@ -1,0 +1,79 @@
+/* Dark theme background */
+body {
+    background-color: #1a1a1a;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    width: 90%;
+    max-width: 800px;
+    /* Page par faila hua dikhega */
+    background-color: #2d2d2d;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ff9f43;
+}
+
+.meme-content {
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 2px dashed #444;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Image ko bada aur adjust karne ke liye */
+#meme-image {
+    max-width: 100%;
+    max-height: 500px;
+    /* Height limit taaki screen se bahar na jaye */
+    width: auto;
+    display: none;
+    /* Pehle hidden rahega jab tak load na ho */
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+#meme-title {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+button {
+    background-color: #00d2d3;
+    color: #2d2d2d;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+button:hover {
+    background-color: #01a3a4;
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.95);
+}
