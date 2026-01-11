@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Flip Card</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-light d-flex justify-content-center align-items-center vh-100">
+
+  <div class="flip-card" onclick="flipCard()">
+    <div class="flip-card-inner" id="flipCardInner">
+
+      <!-- Front Side -->
+      <div class="flip-card-front">
+        <h3>Web Development</h3>
+        <p>Click to know more</p>
+        <button class="btn btn-primary btn-sm mt-3">Explore</button>
+      </div>
+
+      <!-- Back Side -->
+      <div class="flip-card-back">
+        <h4>Technologies</h4>
+        <p>
+          HTML, CSS, Bootstrap, JavaScript  
+          <br>
+          Frontend focused design
+        </p>
+        <button class="btn btn-light btn-sm mt-3">Go Back</button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
